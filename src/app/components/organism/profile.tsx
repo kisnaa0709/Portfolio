@@ -43,7 +43,7 @@ export default function Profile() {
               I&apos;m a frontend developer based in Noida, India, with over 2 years of experience.
             </p>
           </div>
-          <Link href={'./Kishan Singh.pdf'} target="#" className="landscape:px-8 landscape:py-4 landscape:rounded-full landscape:text-[1.2rem] animate-bounce px-4 py-2 rounded-3xl primaryButtonBG primaryButtonText w-max my-8"
+          <Link href={'./Kishan Singh Resume.pdf'} target="#" className="landscape:px-8 landscape:py-4 landscape:rounded-full landscape:text-[1.2rem] animate-bounce px-4 py-2 rounded-3xl primaryButtonBG primaryButtonText w-max my-8"
           type="submit"
           >
             Download CV 
