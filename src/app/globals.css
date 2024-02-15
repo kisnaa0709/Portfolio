@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primaryText: #ffffff;
+  --secondryText: #fbbf24;
+  --primaryBG: #000000;
+  --secondryBG: #35353570;
+  --themeBG: #fbbf24;
+  --primaryButtonText: #fbbf24;
+  --secondryButtonText: #ffffff;
+  --primaryButtonBG: #35353570;
+  --secondryButtonBG: #fbbf24;
+  --primaryBorder: #fbbf24;
+  --secondryBorder: #fbbf24;
+}
+
+body {
+  color: var(--primaryText);
+  background: var(--primaryBG);
+}
+
+body::-webkit-scrollbar{
+  display: none;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+@keyframes ping {
+  75%, 100% {
+      transform: scale(2);
+      opacity: 0;
+  }
+}
+.animate-ping {
+  animation: ping 1.5s cubic-bezier(0, 0, 0.2, 1) infinite;
+}
+
+.transitionAnimation{
+  transition: left ease 0.3s;
+}
