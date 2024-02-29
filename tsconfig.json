@@ -19,7 +19,10 @@
     ],
     "paths": {
       "@/*": ["./src/*"],
-      "@img/*": ["./public/img/*"]
+      "@img/*": ["./public/img/*"],
+      "@atoms/*": ["./src/app/components/atom/*"],
+      "@molecules/*": ["./src/app/components/molecule/*"],
+      "@organisms/*": ["./src/app/components/organism/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],

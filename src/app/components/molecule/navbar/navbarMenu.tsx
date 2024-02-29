@@ -2,7 +2,14 @@
 import { useState } from "react";
 import './navbarMenu.css'
 import Link from "next/link";
-import { BusinessCenterOutlined, CurrencyRupee, EmailOutlined, HandshakeOutlined, HomeOutlined, PersonOutline } from "@mui/icons-material";
+import { 
+  BusinessCenterOutlined, 
+  CurrencyRupee, 
+  EmailOutlined, 
+  HandshakeOutlined, 
+  HomeOutlined, 
+  PersonOutline 
+} from "@mui/icons-material";
 
 export default function NavbarMenu() {
 
@@ -19,6 +26,7 @@ export default function NavbarMenu() {
         </div>
       </div>   
       <div className={`${ on ? 'right-0': 'right-[-300px] top-0' } transitionGrow fixed primaryBG overflow-hidden gap-4 w-[300px] h-screen flex flex-col justify-center primaryText px-12 pb-20 `}>
+        
         <Link href={'#'} className="text-[1.3rem] leading-relaxed hoverSecondryText hover:pl-4 hover:font-normal flex items-center transitionGrow"><HomeOutlined className="mb-1 mr-2"/> Home</Link>
 
         <Link href={'#'} className="text-[1.3rem] leading-relaxed hoverSecondryText hover:pl-4 hover:font-normal flex items-center transitionGrow"><PersonOutline className="mb-1 mr-2"/> About</Link>

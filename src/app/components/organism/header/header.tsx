@@ -1,5 +1,5 @@
-import ThemeModeButton from "../atom/themeModeButton";
-import NavbarMenu from "../molecule/navbarMenu";
+import ThemeModeButton from "@/app/components/atom/themeMode/themeModeButton";
+import NavbarMenu from "@/app/components/molecule/navbar/navbarMenu";
 interface props {
     toggleSwitch: Function;
 }

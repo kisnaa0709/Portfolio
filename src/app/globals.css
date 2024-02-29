@@ -44,3 +44,11 @@ body::-webkit-scrollbar{
 .transitionAnimation{
   transition: left ease 0.3s;
 }
+
+.minHeight{
+  min-height: calc(100vh - 90px);
+}
+
+.scaleTrans{
+  transition: ease-in-out 0.25s;
+}

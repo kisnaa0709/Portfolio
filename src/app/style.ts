@@ -9,7 +9,7 @@ const Style = styled.div`
             color: #fbbf24;
         },
         .primaryBG{
-            background: #ffffff;
+            background: #e8e8e8;
         },
         .secondryBG{
             background: #cecece50;
@@ -18,16 +18,16 @@ const Style = styled.div`
             background: #fbbf24;
         },
         .primaryButtonText{
-            color: #ffffff;
-        },
-        .secondryButtonText{
             color: #fbbf24;
         },
+        .secondryButtonText{
+            color: #fff;
+        },
         .primaryButtonBG{
-            background: #fbbf24;
+            background: #cecece70;
         },
         .secondryButtonBG{
-            background: #cecece50;
+            background: #fbbf24;
         },
         .primaryBorder{
             border-color: #fbbf24;
@@ -63,7 +63,7 @@ const Style = styled.div`
             color: #ffffff;
         },
         .primaryButtonBG{
-            background: #35353570;
+            background: #35353580;
         },
         .secondryButtonBG{
             background: #fbbf24;
